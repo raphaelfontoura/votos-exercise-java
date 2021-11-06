@@ -28,5 +28,7 @@ public class App {
                 "Percentual de votos brancos: %.2f%%\n" +
                 "Percentual de votos nulos: %.2f%%",
                 votos.getValidPercent(), votos.getBlankPercent(), votos.getNullPercent());
+
+        input.close();
     }
 }
