@@ -24,9 +24,9 @@ public class App {
         var votos = new Votos(totalVotos, validVotos, blankVotos, nullVotos);
 
         System.out.println("Resultado da apuração:");
-        System.out.printf("Percentual de votos válidos: %.2f\n" +
-                "Percentual de votos brancos: %.2f\n" +
-                "Percentual de votos nulos: %.2f",
+        System.out.printf("Percentual de votos válidos: %.2f%%\n" +
+                "Percentual de votos brancos: %.2f%%\n" +
+                "Percentual de votos nulos: %.2f%%",
                 votos.getValidPercent(), votos.getBlankPercent(), votos.getNullPercent());
     }
 }
